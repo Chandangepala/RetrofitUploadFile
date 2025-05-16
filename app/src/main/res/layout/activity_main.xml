@@ -13,7 +13,7 @@
         android:id="@+id/img_upload"
         android:layout_width="200dp"
         android:layout_height="150dp"
-        android:src="@drawable/ic_launcher_foreground" />
+        android:src="@drawable/upload_file_24" />
 
     <Button
         android:id="@+id/btn_upload"
@@ -21,4 +21,11 @@
         android:layout_marginTop="30dp"
         android:layout_height="wrap_content"
         android:text="Upload"/>
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="Download"/>
 </LinearLayout>
